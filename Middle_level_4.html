@@ -1,0 +1,86 @@
+<html>
+<head>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-image: url("background.webp");
+            background-size: cover;
+            background-position: center;
+        }
+        .wrapper {
+            width: 90%;
+            margin: 0 auto;
+        }
+        header > h1 {
+            letter-spacing: 10px;
+            font-family: Comic Sans MS, cursive;
+            text-align: center;
+            color: silver;
+        }
+        img {
+            width: 80%;
+            height: auto;
+            max-width: 100%;
+        }
+        textarea {
+            width: 80%;
+            height: 13%;
+            resize: none;
+			font-size: 14px;	
+        }
+        main {
+            margin-top: 10px;
+            text-align: center;
+        }
+        @media (max-width: 768px) {
+            body {
+                background-size: cover;
+            }
+            .wrapper {
+                width: 95%;
+            }
+            header > h1 {
+                letter-spacing: 5px;
+                font-size: 1.5em;
+            }
+            img, textarea {
+                width: 90%;
+            }
+        }
+        @media (max-width: 480px) {
+            header > h1 {
+                font-size: 1.2em;
+                letter-spacing: 3px;
+            }
+            img, textarea {
+                width: 100%;
+            }
+            textarea {
+                height: 20%;
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <h1>Варіант 7</h1>
+        </header>
+        <form align="center">
+            <textarea readonly>
+Вітаю! Вам потрібно створити web-сторінку по цьому шаблоні, в сторінці використовуються такі теги як: div, img, p, h1, b, button.
+Стілзацію, текст і зобаження підберіть на свій розсуд.
+Успіхів !)
+            </textarea>
+        </form>
+        <main>
+            <img src="task4_m.png">
+        </main>
+    </div>
+</body>
+</html>
